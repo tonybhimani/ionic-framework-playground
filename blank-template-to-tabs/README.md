@@ -50,7 +50,7 @@ When the Blank project was created a `home` page was created. You have a couple 
 
 Rename the directory from `home` to `baseball` and all `home.page.*` files to `baseball.page.*`. In the HTML and all TypeScript files replace lower case `home` with `baseball` and `HomePage` with `BaseballPage`.
 
-Below are the contents of each file. The only one I don't edit is `baseball.page.scss` since none of the has CSS changed.
+Below are the contents of each file. The only one I don't edit is `baseball.page.scss` since none of the CSS has changed.
 
 `baseball.page.html`
 ```
