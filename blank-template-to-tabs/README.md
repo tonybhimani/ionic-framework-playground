@@ -19,7 +19,7 @@ Change to the directory and serve it up.
 # ionic serve
 ```
 
-If all goes well then your browser should open and show you the Blank Ionic app with a message about creating your application with UI Componenets.
+If all goes well then your browser should open and show you the Blank Ionic app with a message about creating your application with UI Components.
 
 ## 2. Add Pages For The Tabs
 
