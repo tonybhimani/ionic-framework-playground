@@ -1,0 +1,7 @@
+{
+  "name": "blank-template-to-tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
