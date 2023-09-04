@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Theming: Custom CSS Properties
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Theming: Custom CSS Properties</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-button id="open-action-sheet6">Open Custom CSS Action Sheet</ion-button>
+    <ion-action-sheet
+      trigger="open-action-sheet6"
+      class="my-custom-class2"
+      header="Example header"
+      subHeader="Example subheader"
+      [buttons]="actionSheetButtons">
+    </ion-action-sheet>
+    <br/><br/>
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>
+</ion-content>
