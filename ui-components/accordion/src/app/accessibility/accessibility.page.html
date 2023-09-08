@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Accessibility</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Accessibility</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container" style="width:300px;">
+    <h3>Animations</h3>
+    <ion-accordion-group [animated]="false">
+      <ion-accordion value="first">
+        <ion-item slot="header" color="light">
+          <ion-label>First Accordion</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">First Content</div>
+      </ion-accordion>
+      <ion-accordion value="second">
+        <ion-item slot="header" color="light">
+          <ion-label>Second Accordion</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Second Content</div>
+      </ion-accordion>
+      <ion-accordion value="third">
+        <ion-item slot="header" color="light">
+          <ion-label>Third Accordion</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">Third Content</div>
+      </ion-accordion>
+    </ion-accordion-group>
+  </div>
+</ion-content>
