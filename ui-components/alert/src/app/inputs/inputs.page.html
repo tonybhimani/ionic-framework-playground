@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Inputs
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Inputs</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <h3>Text Inputs Example</h3>
+    <ion-button id="present-alert-text">Click Me</ion-button>
+    <ion-alert
+      trigger="present-alert-text"
+      header="Please enter your info"
+      [buttons]="alertButtonsText"
+      [inputs]="alertInputsText"
+    ></ion-alert>
+    <br/><br/>
+
+    <h3>Radio Example</h3>
+    <ion-button id="present-alert-radio">Click Me</ion-button>
+    <ion-alert
+      trigger="present-alert-radio"
+      header="Select your favorite color"
+      [buttons]="alertButtonsRadio"
+      [inputs]="alertInputsRadio"
+    ></ion-alert>
+  </div>
+</ion-content>

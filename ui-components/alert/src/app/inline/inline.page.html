@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Inline
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Inline</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-button id="present-alert-inline">Click Me</ion-button>
+    <ion-alert
+      trigger="present-alert-inline"
+      header="Alert"
+      subHeader="Important message"
+      message="This is an alert!"
+      [buttons]="alertButtons"
+    ></ion-alert>
+  </div>
+</ion-content>
